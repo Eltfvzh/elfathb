@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-nav {
+  background: linear-gradient(to right, rgb(22, 22, 22), rgb(36, 36, 36));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  height: 3em;
+}
+
+.nav1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav1 img {
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0 1em 0 1em;
+  cursor: pointer;
+}
+
+.nav2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav2 p {
+  margin: 0 25px 0 25px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.nav2 p:hover {
+  text-decoration: underline;
+}
+
+.container {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 35em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 2em;
+  margin-left: 2em;
+}
+
+.content h1 {
+  cursor: pointer;
+}
+
+.content img {
+  width: 40em;
+  height: auto;
+}
+
+.content1 {
+  margin-right: 2em;
+}
+
+.content1 p,
+.content1 h3 {
+  cursor: pointer;
+}
+
+.container1 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 35em;
+}
+
+.content2 {
+  margin-left: 2em;
+}
+
+.content2 p,
+.content2 h3 {
+  cursor: pointer;
+}
+
+.content3 h1 {
+  margin-left: 5.5em;
+  cursor: pointer;
+}
+
+.content3 img {
+  width: 35em;
+  height: auto;
+}
+
+.more-content {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  height: 40em;
+  justify-content: center;
+}
+
+.more1 {
+  width: 50%;
+}
+
+.more1 img {
+  width: 60em;
+  height: auto;
+}
+
+.more2 {
+  margin-top: 15em;
+}
+
+.more2 p {
+  margin-right: 2em;
+  cursor: pointer;
+}
+
+.more2 h3 {
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(172, 172, 172);
+  color: rgb(93, 93, 93);
+  padding: 2em 0 2em 0;
+}
+
+.footer1,
+.footer2,
+.footer3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer span {
+  margin: 0.5em 0 0.5em 0;
+  cursor: pointer;
+}
+
+.footer span:hover {
+  text-decoration: underline;
+}
