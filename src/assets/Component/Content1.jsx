@@ -1,5 +1,4 @@
-import img2 from "./Image/hp.jpg"
-
+import hp from "../image/hp.jpg"
 function Content1() {
     return(
         <div className="main-content2">
@@ -10,7 +9,7 @@ function Content1() {
         </div>
         <div className="content3">
           <h1>New Product</h1>
-          <img src={img2} alt="" />
+          <img src={hp} alt="" />
         </div>
       </div>
     </div>

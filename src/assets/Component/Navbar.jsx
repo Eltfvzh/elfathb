@@ -1,11 +1,11 @@
-import img4 from "./Image/Apple-logo-removebg-preview.png"
+import logo from "../Image/Apple-logo-removebg-preview.png"
 
 function Navbar() {
 
     return (
         <div className="main-nav">
             <div className="nav1">
-                <img src={img4} alt="" />
+                <img src={logo} alt="" />
             </div>
             <div className="nav2">
                 <p>main</p>
