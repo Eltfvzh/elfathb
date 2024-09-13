@@ -1,4 +1,4 @@
-import React from "react";
+import img2 from "./Image/hp.jpg"
 
 function Content1() {
     return(
@@ -10,7 +10,7 @@ function Content1() {
         </div>
         <div className="content3">
           <h1>New Product</h1>
-          <img src="hp.jpg" alt="" />
+          <img src={img2} alt="" />
         </div>
       </div>
     </div>

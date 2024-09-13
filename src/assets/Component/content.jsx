@@ -1,4 +1,4 @@
-import React from "react";
+import img3 from "Wallpaper-Laptop.webp"
 
 function Content() {
     return(
@@ -6,7 +6,7 @@ function Content() {
         <div className="container">
           <div className="content">
             <h1>Apple Club</h1>
-            <img src="Wallpaper-Laptop.webp" alt="" />
+            <img src={img3} alt="" />
           </div>
           <div className="content1">
             <h3>lorem</h3>

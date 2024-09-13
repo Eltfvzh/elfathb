@@ -1,10 +1,10 @@
-import React from "react";
+import img1 from "../Image/headset.jpg"
 
 function Content2(){
     return(
         <div className="more-content">
         <div className="more1">
-          <img src="headset.jpg" alt="" />
+          <img src={img1} alt="" />
         </div>
         <div className="more2">
           <h1>more2</h1>
